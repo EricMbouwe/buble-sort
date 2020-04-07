@@ -1,15 +1,19 @@
 def bubble_sort_by(arr)
   loop do
-    sorted = false
+    sorted = true
     (0...arr.length - 1).each do |i|
-      if (arr[i].length - arr[i + 1].length).positive?
+      if yield(arr[i], arr[i + 1]).positive?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
-        sorted = true
+        sorted = false
       end
     end
-    break unless sorted
+    break if sorted
   end
   arr
 end
 
-print bubble_sort_by(%w[hi hello hey])
+var = bubble_sort_by(%w[hi hello hey]) do |left, right|
+  left.length - right.length
+end
+
+print var
