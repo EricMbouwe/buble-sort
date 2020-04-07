@@ -37,6 +37,7 @@ In your terminal, change directory to the root of the project
 - Twitter: [@ericmbouwe](https://twitter.com/ericmbouwe)
 - Linkedin: [@ericmbouwe](https://www.linkedin.com/in/ericmbouwe/)
 
+👤 **Abror Mukimov**
 - Github: [abrormukimov](https://github.com/abrormukimov)
 - Linkedin: [abrormukimov](https://www.linkedin.com/in/abrormukimov)
 - Twitter: [abrormukimov](https://www.twitter.com/abrormukimov)
