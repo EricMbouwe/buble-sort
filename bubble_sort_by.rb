@@ -7,7 +7,7 @@ def bubble_sort_by(arr)
         sorted = true
       end
     end
-    break if !sorted
+    break unless sorted
   end
   arr
 end
@@ -15,6 +15,5 @@ end
 var = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
-
 
 print var
